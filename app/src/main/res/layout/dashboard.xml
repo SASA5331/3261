@@ -15,11 +15,13 @@
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:layout_marginTop="50dp"
-            android:src="@drawable/saya"></ImageView>
+            android:src="@drawable/akun"
+            android:id="@+id/iv_foto_siswa"></ImageView>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Margareta Dwi Anisa"
+            android:text="Nama Siswa"
+            android:id="@+id/tv_nama_siswa"
             android:textSize="16dp"
             android:textStyle="bold"
             android:paddingTop="5dp"></TextView>
